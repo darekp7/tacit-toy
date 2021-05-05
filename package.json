@@ -1,0 +1,22 @@
+{
+  "name": "tacit-toy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/darekp7/tacit-toy.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/darekp7/tacit-toy/issues"
+  },
+  "homepage": "https://github.com/darekp7/tacit-toy#readme",
+  "dependencies": {
+    "pug": "^3.0.2"
+  }
+}
