@@ -14,5 +14,40 @@ html
         
         //- https://bulma.io/documentation/helpers/visibility-helpers/#hide
         
-        a.button.is-primary.is-hidden-touch Akcja dla komputera
-        a.button.is-success.is-hidden-desktop Akcja dla smartfona i tabletu
+        .columns
+            .column.is-one-fifth.is-hidden-touch(style="background-color:#99cc00;")
+                aside.menu
+                    p.menu-label(style="color:black;") General
+                    ul.menu-list
+                        li <a>Dashboard</a>
+                        li <a>Customers</a>
+                    p.menu-label Administration
+                    ul.menu-list
+                        li <a>Team Settings</a>
+                        li
+                          a.is-active Manage Your Team
+                          ul
+                            li <a>Members</a>
+                            li <a>Plugins</a>
+                            li <a>Add a member</a>
+                        li <a>Invitations</a>
+                        li <a>Cloud Storage Environment Settings</a>
+                        li <a>Authentication</a>
+                    p.menu-label Transactions
+                    ul.menu-list
+                        li <a>Payments</a>
+                        li <a>Transfers</a>
+                        li <a>Balance</a>
+
+                p Menu boczne
+                br
+                p dla desktopa
+            .column.
+                lorem ipsum bla bla bla lorem ipsum bla bla bla lorem ipsum bla bla bla lorem ipsum bla bla bla 
+                lorem ipsum bla bla bla lorem ipsum bla bla bla lorem ipsum bla bla bla lorem ipsum bla bla bla 
+                lorem ipsum bla bla bla lorem ipsum bla bla bla lorem ipsum bla bla bla lorem ipsum bla bla bla
+                lorem ipsum bla bla bla lorem ipsum bla bla bla lorem ipsum bla bla bla lorem ipsum bla bla bla
+                lorem ipsum bla bla bla lorem ipsum bla bla bla lorem ipsum bla bla bla lorem ipsum bla bla bla
+        
+        a.button.is-success.is-hidden-desktop(style="border: 1px solid black;") Akcja dla smartfona i tabletu
+        a.button.is-primary.is-hidden-touch(style="border: 1px solid black;") Akcja dla komputera
